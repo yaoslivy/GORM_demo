@@ -1,0 +1,75 @@
+# Golang #
+######################
+# `go test -c` create
+*.test
+# go coverage tools
+*.out
+*.prof
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# compile files #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# compressed package #
+############
+# Git comes with compression, so if you have code in these packages, 
+# it's recommended that you unzip them and commit them.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# log files and databases #
+######################
+*.log
+*.sqlite
+*.db
+# temporary files #
+######################
+.tmp/
+
+# system generated files #
+######################
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDE and Editor#
+######################
+.idea/
+/go_build_*
+out/
+.vscode/
+.vscode/settings.json
+*.sublime*
+__debug_bin
+.project
+
+# Frontend tool chain #
+######################
+.sass-cache/*
+node_modules/
